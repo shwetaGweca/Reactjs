@@ -1,0 +1,54 @@
+.App {
+  height: 400px;
+  width: 600px;
+}
+
+.textHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Outer {
+  height: 400px;
+  width: 600px;
+  background: #EBEBEB;
+
+}
+
+.blockGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 70%;
+  height: 80%;
+}
+
+.myGridDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 64px;
+  color: #FFFFFF;
+  height: 100%;
+  min-width: 25%;
+}
+
+.rightSide {
+  width: 30%;
+  float: right;
+  margin-top: -313px;
+}
+
+.buttonDiv {
+  width: fit-content;
+  margin-bottom: 8%;
+  margin-left: 25%;
+
+}
+
+.divtext {
+  display: flex;
+  font-size: 12px;
+  margin-left: 33%
+}
